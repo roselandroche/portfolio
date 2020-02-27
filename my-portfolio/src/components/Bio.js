@@ -4,7 +4,18 @@ function Bio() {
     return (
         <div>
             <h1>RNL</h1>
-            <p>Copper mug williamsburg tacos squid, craft beer knausgaard church-key mlkshk. Tattooed cold-pressed 3 wolf moon, ennui brooklyn post-ironic tousled flexitarian paleo shaman. Celiac shabby chic meditation tattooed. Ennui gentrify thundercats, poutine la croix air plant raclette pickled quinoa poke authentic asymmetrical synth irony. Single-origin coffee pop-up cred, knausgaard offal beard fam lyft affogato keffiyeh biodiesel messenger bag readymade chambray. Pok pok chambray letterpress four loko, meditation taiyaki pabst try-hard VHS cronut cray hella 3 wolf moon. Snackwave twee taxidermy banjo.</p>
+            <p>
+                (What I do and why I do it aka Personal Mission Statement)
+                My full name is Rose Landroche and I am a Full Stack Web Developer. I chose this career path
+                because I love to create things, and I love a challenge. Previously I had been involved in
+                various other fields, but my life suddenly changed and the time was perfect to switch careers.
+            </p>
+            <p>
+                Contact Info (contact form, email, phone number)
+            </p>
+            <p>
+                Links to GitHub, LinkedIn, and Twitter
+            </p>
         </div>
     )
 }
