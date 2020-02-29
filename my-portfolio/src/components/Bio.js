@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import '../css/Bio.css';
 
 function Bio() {
     return (
@@ -6,15 +7,10 @@ function Bio() {
             <h1>RNL</h1>
             <p>
                 (What I do and why I do it aka Personal Mission Statement)
-                My full name is Rose Landroche and I am a Full Stack Web Developer. I chose this career path
-                because I love to create things, and I love a challenge. Previously I had been involved in
-                various other fields, but my life suddenly changed and the time was perfect to switch careers.
-            </p>
-            <p>
-                Contact Info (contact form, email, phone number)
-            </p>
-            <p>
-                Links to GitHub, LinkedIn, and Twitter
+                My full name is Rose Landroche and I am a Full Stack Web Developer. I have years of experience
+                in customer facing industries like retail, and customer service. I chose to change my career path
+                because I love to create things, and I love a challenge. Programming is something that combines
+                several of my passions, and can be used in countless industries that I want to be a part of.
             </p>
         </div>
     )
