@@ -1,0 +1,8 @@
+/* .nav-container {
+    display: flex;
+} */
+
+.nav-link {
+    /* justify-content: space-around; */
+    text-emphasis: none;
+}

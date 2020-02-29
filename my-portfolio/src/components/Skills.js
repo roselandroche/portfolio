@@ -1,8 +1,10 @@
-import React from 'react'
+import React from 'react';
+import NavBar from './NavBar';
 
 function Skills() {
     return (
         <div>
+            <NavBar />
             <h1>Technical Skills</h1>
             <h3>Node.js</h3>
             <h3>SQL, SQLite</h3>
