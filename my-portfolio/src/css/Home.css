@@ -1,13 +1,6 @@
-.home-options {
-    font-size: 24px;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20vh;
-}
-
-.home-button {
-    flex-flow: row;
-    margin: 5vh;
-    font-family: Rufina;
-    color: rgba(45, 1, 1, 0.65);
+.logo {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }

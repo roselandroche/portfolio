@@ -1,21 +1,10 @@
 .App {
   text-align: center;
   font-family: Rufina;
-  color: rgba(45, 1, 1, 0.65);
+  color: black;
 }
 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
-  margin: 15vh;
-}
-
-.App-header {
-  background-color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: #000000;
 }

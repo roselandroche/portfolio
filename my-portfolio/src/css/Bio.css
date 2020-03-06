@@ -1,13 +1,13 @@
 h1 {
-    margin: 28vh 28vh 15vh 28vh;
+    margin: 24vh 24vh 14vh 24vh;
     font-size: 48px;
-    color: rgba(45, 1, 1, 0.65);
-    
+    font-weight: 300;
+    color: black;
 }
 
 p {
-    color: rgba(45, 1, 1, 0.65);
-    font-size: 24px;
+    color: black;
+    font-size: 22px;
     padding: 0 15%;
-    text-align: right;
+    text-align: left;
 }
