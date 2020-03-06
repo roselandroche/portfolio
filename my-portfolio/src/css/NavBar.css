@@ -1,8 +1,11 @@
-/* .nav-container {
+.nav-container {
     display: flex;
-} */
+    justify-content: space-around;
+    color: black;
+}
 
 .nav-link {
-    /* justify-content: space-around; */
-    text-emphasis: none;
+    color: rgba(45, 1, 1, 0.65);
+    text-decoration: none;
+    font-size: 20px;
 }
