@@ -9,12 +9,14 @@ function Bio() {
             <h1>RNL</h1>
             <p>
                 My name is Rose Landroche and I am a Full Stack Web Developer. I have years of experience
-                in customer facing industries like retail, and customer service. I chose to change my career path
-                because I love to create things, and I love to be challenged. Programming is something that combines
-                several of my passions, and can be used in countless industries that I want to be a part of.
+                in customer facing industries including retail, and customer service. I began learning to program
+                around 2018, and pursued organized learning through Lambda School in 2019. Programming has become 
+                the way I can channel my appreciation for logic, as well as creating new things, into a satisfying 
+                and productive career.
             </p>
             <h1>Mission Statement</h1>
-            <p>Fill in mission statement</p>
+            <p>To actively improve the world, and the lives of those who live here, by working for and with like-minded 
+                people, so that I leave the world better than I found it.</p>
         </div>
     )
 }
