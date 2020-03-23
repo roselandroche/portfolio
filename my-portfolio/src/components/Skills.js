@@ -8,15 +8,15 @@ function Skills() {
             <NavBar />
             <div className='skills'>
                 <h1>Technical Skills</h1>
-                <h3>Node.js</h3>
-                <h3>SQL, SQLite</h3>
-                <h3>Express</h3>
-                <h3>Knex.js</h3>
-                <h3>Redux</h3>
-                <h3>React.js</h3>
-                <h3>JavaScript</h3>
-                <h3>CSS, Less, Sass</h3>
-                <h3>HTML</h3>
+                <p>Node.js</p>
+                <p>SQL, SQLite</p>
+                <p>Express</p>
+                <p>Knex.js</p>
+                <p>Redux</p>
+                <p>React.js</p>
+                <p>JavaScript</p>
+                <p>CSS, Less, Sass</p>
+                <p>HTML</p>
             </div>
         </>
     )
