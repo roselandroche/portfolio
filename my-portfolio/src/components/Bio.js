@@ -14,7 +14,7 @@ function Bio() {
                 the way I can channel my appreciation for logic, as well as creating new things, into a satisfying 
                 and productive career.
             </p>
-            <h1>Mission Statement</h1>
+            <h1>Personal Mission Statement:</h1>
             <p>To actively improve the world, and the lives of those who live here, by working for and with like-minded 
                 people, so that I leave the world better than I found it.</p>
         </div>
