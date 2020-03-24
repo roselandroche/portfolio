@@ -1,11 +1,15 @@
 import React from 'react';
+// import { withFormik, Form, Field } from 'formik';
 import NavBar from './NavBar';
+import Footer from './Footer';
+import ContactForm from './ContactForm';
 
 function Contact() {
     return (
         <div>
             <NavBar />
-            Contact Form, plus links to GitHub, LinkedIn, and Twitter
+            <ContactForm />
+            <Footer />
         </div>
     )
 }
