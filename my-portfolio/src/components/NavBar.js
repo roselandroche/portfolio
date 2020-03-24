@@ -1,13 +1,13 @@
 import React from 'react'
 import { Link } from 'react-router-dom';
 import '../css/NavBar.css';
-import favicon from '../favicon.png';
+import HomeIcon from '@material-ui/icons/Home';
 
 function NavBar() {
     return (
         <div className="nav-container">
             <Link exact to='/' >
-                <img src={favicon} alt='logo' className='' />
+                <HomeIcon />
             </Link>
             <Link to='/bio' className="nav-link">BIO</Link>
             <Link to='/skills' className="nav-link">SKILLS</Link>
