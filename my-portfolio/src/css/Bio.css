@@ -1,12 +1,17 @@
 h1 {
-    margin: 24vh 24vh 14vh 24vh;
+    padding-top: 65px;
+    padding-left: 200px;
     font-size: 48px;
     color: black;
+    text-align: left;
+    letter-spacing: 1px;
 }
 
 p {
     color: black;
     font-size: 22px;
-    padding: 0 15%;
+    line-height: 33px;
     text-align: left;
+    padding-left: 320px;
+    padding-right: 260px;
 }
