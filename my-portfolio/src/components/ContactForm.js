@@ -4,20 +4,20 @@ import * as yup from 'yup';
 import axios from 'axios';
 
 function ContactForm(props) {
-    const [message, setMessage] = useState([])
+    // const [message, setMessage] = useState([])
     return (
-        <Form>
+        <Form className='contact-form'>
             {props.touched.sender && props.errors.sender && <p className='error'>{props.errors.sender}</p>}
-            <Field type='text' name='sender' placeholder='Sender Name' />
+            <Field className='input' type='text' name='sender' placeholder='Sender Name' />
             {props.touched.reason && props.errors.reason && <p className='error'>{props.errors.reason}</p>}
-            <Field component='select' name='reason'>
+            <Field className='input' component='select' name='reason'>
                 <option value='' disabled>Select Reason for Message</option>
                 <option value='Compliment'>Compliment</option>
                 <option value='Constructive Criticism'>Constructive Criticism</option>
                 <option value='Job Offer'>Job Offer</option>
             </Field>
             {props.touched.messageBody && props.errors.messageBody && <p className='error'>{props.errors.messageBody}</p>}
-            <Field type='text' name='messageBody' placeholder='Message Body' />
+            <Field className='input' type='text' name='messageBody' placeholder='Message Body' />
 
             <button type='submit'>Send Message</button>
         </Form>
