@@ -1,5 +1,8 @@
 import React from 'react';
 import NavBar from './NavBar';
+import '../css/Projects.css';
+import WaterPlants from '../WaterPlants.png';
+import Pintereach from '../Pintereach.png';
 
 function Projects() {
     return (
@@ -11,7 +14,7 @@ function Projects() {
                 help users care for plants.
             </p>
             <a href='https://hopeful-villani-ed8e0d.netlify.com/index.html'>
-                <p>Deployed Site</p>
+                <img src={WaterPlants} alt='Screenshot of landing page' className='screenshot' />
             </a>
 
             <h1>Project 2: Pintereach</h1>
@@ -20,7 +23,7 @@ function Projects() {
                 in order to give users the ability to save articles to be read at a later date.
             </p>
             <a href='https://eloquent-mcnulty-a0dd5b.netlify.com/'>
-                <p>Deployed Site</p>
+                <img src={Pintereach} alt='Screenshot of application' className='screenshot' />
             </a>
         </div>
     )
