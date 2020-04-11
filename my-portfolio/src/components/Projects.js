@@ -19,7 +19,7 @@ function Projects() {
 
             <h1>Project 2: Pintereach</h1>
             <p>
-                An application built with a cross functional team, utilizing React 
+                An application built with a cross functional team, utilizing React and Redux
                 in order to give users the ability to save articles to be read at a later date.
             </p>
             <a href='https://eloquent-mcnulty-a0dd5b.netlify.com/'>
