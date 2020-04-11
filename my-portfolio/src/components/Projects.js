@@ -5,12 +5,13 @@ function Projects() {
     return (
         <div>
             <NavBar />
-            <h1>Project 1: Marketing Page for Gardening Application</h1>
+            <h1>Project 1: Gardening App Marketing Page</h1>
             <p>
-                A landing page utilizing CSS, LESS, HTML, and JavaScript languages to create a 
-                functional and beautiful site..
+                A landing page utilizing CSS, LESS, HTML, and JavaScript.
             </p>
-            <p>https://hopeful-villani-ed8e0d.netlify.com/index.html#</p>
+            <a href='https://hopeful-villani-ed8e0d.netlify.com/index.html'>
+                <img src = '../WaterPlants.png' alt = 'Screenshot of landing page'></img>
+            </a>
 
             <h1>Project 2</h1>
             <p>Concise Description</p>
