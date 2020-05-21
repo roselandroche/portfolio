@@ -6,7 +6,7 @@ import HomeIcon from '@material-ui/icons/Home';
 function NavBar() {
     return (
         <div className="nav-container">
-            <Link exact to='/' >
+            <Link exact='true' to='/' >
                 <HomeIcon />
             </Link>
             <Link to='/bio' className="nav-link">BIO</Link>

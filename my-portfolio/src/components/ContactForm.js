@@ -1,12 +1,11 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { withFormik, Form, Field } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
 
 function ContactForm(props) {
-    // const [message, setMessage] = useState([])
     return (
-        <Form className='contact-form'>
+        <Form className='contact-form' method='POST' data-netlify="true">
             {props.touched.sender && props.errors.sender && <p className='error'>{props.errors.sender}</p>}
             <Field className='input' type='text' name='sender' placeholder='Sender Name' />
             {props.touched.reason && props.errors.reason && <p className='error'>{props.errors.reason}</p>}
@@ -37,14 +36,14 @@ export default withFormik({
         reason: yup.string().required('Reason for message is required!'),
         messageBody: yup.string().required('Actual message is required!')
     }),
-    handleSubmit: (values) => {
-        axios.post('', values)
-            .then(res => {
-                console.log(res)
-            })
-            .catch(err => {
-                console.log(`Error:`, err)
-            })
-        console.log(values)
-    }
+    // handleSubmit: (values) => {
+    //     axios.post('', values)
+    //         .then(res => {
+    //             console.log(res)
+    //         })
+    //         .catch(err => {
+    //             console.log(`Error:`, err)
+    //         })
+    //     console.log(values)
+    // }
 })(ContactForm)
