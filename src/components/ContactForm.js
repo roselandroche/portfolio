@@ -36,14 +36,14 @@ export default withFormik({
         reason: yup.string().required('Reason for message is required!'),
         messageBody: yup.string().required('Actual message is required!')
     }),
-    // handleSubmit: (values) => {
-    //     axios.post('', values)
-    //         .then(res => {
-    //             console.log(res)
-    //         })
-    //         .catch(err => {
-    //             console.log(`Error:`, err)
-    //         })
-    //     console.log(values)
-    // }
+    handleSubmit: (values) => {
+        axios.post('https://rose-portfolio-be.herokuapp.com/api/mail', values)
+            .then(res => {
+                console.log(res)
+            })
+            .catch(err => {
+                console.log(`Error:`, err)
+            })
+        console.log(values)
+    }
 })(ContactForm)
