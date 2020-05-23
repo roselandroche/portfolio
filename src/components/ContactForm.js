@@ -1,13 +1,13 @@
 import React from 'react';
 import { withFormik, Form, Field } from 'formik';
 import * as yup from 'yup';
-// import axios from 'axios';
+import axios from 'axios';
 
 function ContactForm(props) {
     return (
         <Form className='contact-form' method='POST' data-netlify="true">
             {props.touched.sender && props.errors.sender && <p className='error'>{props.errors.sender}</p>}
-            <Field className='input' type='text' name='sender' placeholder='Sender Name' />
+            <Field className='input' type='email' name='sender' placeholder='Sender Email' />
             {props.touched.reason && props.errors.reason && <p className='error'>{props.errors.reason}</p>}
             <Field className='input' component='select' name='reason'>
                 <option value='' disabled>Select Reason for Message</option>
@@ -32,18 +32,24 @@ export default withFormik({
         }
     },
     validationSchema: yup.object().shape({
-        sender: yup.string().required('Name is required!'),
+        sender: yup.string().email().required('Sender email is required!'),
         reason: yup.string().required('Reason for message is required!'),
         messageBody: yup.string().required('Actual message is required!')
     }),
     handleSubmit: (values) => {
-        axios.post('https://rose-portfolio-be.herokuapp.com/api/mail', values)
+        const value = {
+            to: values.sender,
+            from: 'r.landroche@gmail.com',
+            subject: values.reason,
+            text: values.messageBody
+        }
+        axios.post('https://rose-portfolio-be.herokuapp.com/api/mail', value)
             .then(res => {
                 console.log(res)
             })
             .catch(err => {
-                console.log(`Error:`, err)
+                console.log(`Error:`, err.response)
             })
-        console.log(values)
+        console.log(value)
     }
 })(ContactForm)
