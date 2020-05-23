@@ -2,6 +2,7 @@ import React from 'react';
 import { withFormik, Form, Field } from 'formik';
 import * as yup from 'yup';
 import axios from 'axios';
+import '../css/ContactForm.css';
 
 function ContactForm(props) {
     return (
