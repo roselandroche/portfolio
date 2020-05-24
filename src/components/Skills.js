@@ -6,17 +6,18 @@ function Skills() {
     return (
         <>
             <NavBar />
-            <div className='skills'>
+            
+            <div className='skills-card'>
                 <h1>Technical Skills</h1>
-                <p>Node.js</p>
-                <p>SQL, SQLite</p>
-                <p>Express</p>
-                <p>Knex.js</p>
-                <p>Redux</p>
-                <p>React.js</p>
-                <p>JavaScript</p>
-                <p>CSS, Less, Sass</p>
-                <p>HTML</p>
+                <p className='skill'>Node.js</p>
+                <p className='skill'>SQL, SQLite</p>
+                <p className='skill'>Express</p>
+                <p className='skill'>Knex.js</p>
+                <p className='skill'>Redux</p>
+                <p className='skill'>React.js</p>
+                <p className='skill'>JavaScript</p>
+                <p className='skill'>CSS, Less, Sass</p>
+                <p className='skill'>HTML</p>
             </div>
         </>
     )

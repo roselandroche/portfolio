@@ -1,10 +1,17 @@
+.bio {
+    width: 60vw;
+    margin: 10vh auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
 h1 {
-    padding-top: 65px;
-    padding-left: 200px;
-    font-size: 48px;
+    margin: 0;
+    padding: 0;
+    width: 40vw;
+    font-size: 40px;
     color: black;
     text-align: left;
-    letter-spacing: 1px;
 }
 
 p {
@@ -12,6 +19,5 @@ p {
     font-size: 22px;
     line-height: 33px;
     text-align: left;
-    padding-left: 320px;
-    padding-right: 260px;
+    width: 52vw;
 }
