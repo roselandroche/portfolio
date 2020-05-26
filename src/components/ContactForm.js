@@ -18,7 +18,7 @@ function ContactForm(props) {
                 <option value='Job Offer'>Job Offer</option>
             </Field>
             {props.touched.messageBody && props.errors.messageBody && <p className='error'>{props.errors.messageBody}</p>}
-            <Field className='input' type='text' name='messageBody' placeholder='Message Body' />
+            <Field className='input' type='text' name='messageBody' placeholder='Message' />
 
             <button type='submit'>Send Message</button>
         </Form>
