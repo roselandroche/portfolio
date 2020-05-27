@@ -3,6 +3,7 @@ import NavBar from './NavBar';
 import '../css/Projects.css';
 import WaterPlants from '../WaterPlants.png';
 import Pintereach from '../Pintereach.png';
+import BuildSauti from '../BuildSautiStudio.png';
 
 function Projects() {
     return (
@@ -28,7 +29,17 @@ function Projects() {
                     <img src={Pintereach} alt='Screenshot of application' className='screenshot' />
                 </a>
             </div>
-            
+            <div className='projectCard'>
+                <h1>Project 3: Build Sauti Studio</h1>
+                <p>
+                    A back end for an application built with a cross functional team, utilizing Node.js and Knex
+                    in order to give users the ability to save and share technical projects with like-minded
+                    people. 
+                </p>
+                <a href='https://github.com/roselandroche/Back-end'>
+                    <img src={BuildSauti} alt='Screenshot of database' className='screenshot' />
+                </a>
+            </div>
         </div>
     )
 }
