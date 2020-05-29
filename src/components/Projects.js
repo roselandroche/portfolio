@@ -4,6 +4,7 @@ import '../css/Projects.css';
 import WaterPlants from '../WaterPlants.png';
 import Pintereach from '../Pintereach.png';
 import BuildSauti from '../BuildSautiStudio.png';
+import SaveThisJob from '../SaveThisJob.png';
 
 function Projects() {
     return (
@@ -38,6 +39,17 @@ function Projects() {
                 </p>
                 <a href='https://github.com/roselandroche/Back-end'>
                     <img src={BuildSauti} alt='Screenshot of database' className='screenshot' />
+                </a>
+            </div>
+            <div className='projectCard'>
+                <h1>Project 4: Save This Job</h1>
+                <p>
+                    A back end for an application built with a cross functional team, utilizing Node.js and Knex
+                    in order to give users the ability to save job postings and related information as they search
+                    for their new career. 
+                </p>
+                <a href='https://savethisjob.com'>
+                    <img src={SaveThisJob} alt='Screenshot of database' className='screenshot' />
                 </a>
             </div>
         </div>
