@@ -12,6 +12,7 @@ function Projects() {
             <NavBar />
             <div className='projectCard'>
                 <h1>Save This Job</h1>
+                <h3>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
                 <p>
                     A back end for an application built with a cross functional team, utilizing Node.js and Knex
                     in order to give users the ability to save job postings and related information as they search
@@ -23,6 +24,7 @@ function Projects() {
             </div>
             <div className='projectCard'>
                 <h1>Build Sauti Studio</h1>
+                <h3>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
                 <p>
                     A back end for an application built with a cross functional team, utilizing Node.js and Knex
                     in order to give users the ability to save and share technical projects with like-minded
@@ -34,6 +36,7 @@ function Projects() {
             </div>
             <div className='projectCard'>
                 <h1>Pintereach</h1>
+                <h3>Tech Stack: React, Redux</h3>
                 <p>
                     An application built with a cross functional team, utilizing React and Redux
                     in order to give users the ability to save articles to be read at a later date.
@@ -44,6 +47,7 @@ function Projects() {
             </div>
             <div className='projectCard'>
                 <h1>Water My Plants</h1>
+                <h3>Tech Stack: HTML, CSS, JavaScript</h3>
                 <p>
                     A landing page utilizing CSS, LESS, HTML, and JavaScript showcasing an application to
                     help users care for plants.

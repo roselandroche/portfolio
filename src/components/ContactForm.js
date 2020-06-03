@@ -15,7 +15,7 @@ function ContactForm(props) {
                 <option value='' disabled>Select Reason for Message</option>
                 <option value='Compliment'>Compliment</option>
                 <option value='Constructive Criticism'>Constructive Criticism</option>
-                <option value='Job Offer'>Job Offer</option>
+                <option value='Job Opportunity'>Job Opportunity</option>
             </Field>
             {props.touched.messageBody && props.errors.messageBody && <p className='error'>{props.errors.messageBody}</p>}
             <Field className='input' type='text' name='messageBody' placeholder='Message' />
