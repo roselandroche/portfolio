@@ -1,12 +1,10 @@
 .prof-links {
-    bottom: 5px;
-    position: absolute;
-    padding-left: 100vh;
-    font-size: 3rem;
+    bottom: 1px;
+    font-size: 38rem;
     display: flex;
+    justify-content: space-evenly;
 }
 
 .media {
     justify-content: space-around;
-    align-items: flex-end;
 }
