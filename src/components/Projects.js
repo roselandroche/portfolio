@@ -5,11 +5,22 @@ import WaterPlants from '../WaterPlants.png';
 import Pintereach from '../Pintereach.png';
 import BuildSauti from '../BuildSautiStudio.png';
 import SaveThisJob from '../SaveThisJob.png';
+import GameOfLife from '../GameOfLife.png';
 
 function Projects() {
     return (
         <div>
             <NavBar />
+            <div className='projectCard'>
+                <h1>Conway's Game of Life</h1>
+                <h3>Tech Stack: React, JavaScript, CSS</h3>
+                <p>
+                    A single page application showcasing John Conway's historic Game of Life. 
+                </p>
+                <a href='https://awesome-ramanujan-7d7ef5.netlify.app/'>
+                    <img src={GameOfLife} alt='Screenshot of game of life' className='screenshot' />
+                </a>
+            </div>
             <div className='projectCard'>
                 <h1>Save This Job</h1>
                 <h3>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
