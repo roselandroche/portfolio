@@ -1,6 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 .logo {
-    position: fixed;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 300px;
+    height: auto;
+    margin: 0 100px;
 }
