@@ -1,3 +1,29 @@
+# Project Title:
+
+Personal Portfolio
+
+# Functionality:
+
+Introduces my work, as well as my personal goals, and gives an option to contact me.
+
+# Status:
+
+In progress.
+
+# Tech Stack/Framework:
+
+- React
+- JavaScript
+- CSS
+- HTML
+
+# Bugs to Fix:
+
+- None at the moment
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
