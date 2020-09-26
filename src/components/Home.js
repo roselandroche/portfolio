@@ -9,10 +9,10 @@ function Home() {
     return (
         <div>
             <NavBar />
-            <header className="header">
+            <p className="header">
                 <img src={rose_avatar} className="logo" alt="avatar" />
                 <img src={logo} className="logo" alt="logo" />
-            </header>
+            </p>
             <Footer />
         </div>
     )
