@@ -11,6 +11,7 @@ function Skills() {
                 <h1>Technical Skills</h1>
                 <p className='skill'>Algorithms</p>
                 <p className='skill'>Python</p>
+                <p className='skill'>Jest, Supertest</p>
                 <p className='skill'>Node.js</p>
                 <p className='skill'>SQL, SQLite</p>
                 <p className='skill'>Express</p>
