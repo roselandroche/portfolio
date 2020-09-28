@@ -1,7 +1,8 @@
 .bio {
     width: 60vw;
-    margin: 10vh auto;
-    border: 1px solid black;
+    margin: 12vh auto;
+    padding: 40px;
+    border: 2px solid #e4dfe9;
     border-radius: 5px;
 }
 

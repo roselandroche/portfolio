@@ -1,14 +1,16 @@
 .screenshot {
     width: 40vw;
     height: auto;
+    border-radius: 5px;
+    box-shadow: 1px 1px 10px 4px #c7c1ce;
 }
 
 .projectCard {
-    width: 60vw;
+    width: 70vw;
     border-radius: 5px;
     margin: 10vh auto;
-    padding-bottom: 40px;
-    border: 1px solid black;
+    padding: 40px 20px;
+    border: 2px solid #e4dfe9;
 }
 
 h1 {
