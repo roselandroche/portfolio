@@ -1,24 +1,33 @@
-.bio {
-    width: 60vw;
-    margin: 12vh auto;
-    padding: 40px;
+.bio, .mission {
+    width: 40vw;
+    margin: 10vh 3vw;
+    padding: 10px 60px 0px 0px;
     border: 2px solid #e4dfe9;
     border-radius: 5px;
 }
 
+.mission {
+    width: 30vw;
+}
+
 h1 {
-    margin: 0;
-    padding: 0;
-    width: 40vw;
+    width: 30vw;
     font-size: 40px;
     color: black;
     text-align: left;
 }
 
-p {
+.bio-p {
     color: black;
     font-size: 22px;
     line-height: 33px;
     text-align: left;
-    width: 52vw;
+    width: 32vw;
+    padding-bottom: 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
 }
