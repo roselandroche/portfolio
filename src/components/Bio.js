@@ -8,13 +8,13 @@ function Bio() {
             <NavBar />
             <div className='cards'>
                 <div className='mission'>
-                    <h1>Mission Statement:</h1>
+                    <h1 className='bio-heading'>Mission Statement:</h1>
                     <p className='bio-p'>
                         To continually learn, grow, and live with integrity.
                     </p>
                 </div>
                 <div className='bio'>
-                    <h1>About me:</h1>
+                    <h1 className='bio-heading'>About me:</h1>
                     <p className='bio-p'>
                         My name is Rose Landroche. I am a Full Stack Web Developer based out of Vancouver British Columbia. 
                     </p>
