@@ -15,17 +15,24 @@
 
 .project-title {
     padding: 0 0 0 40px;
-    font-size: 36px;
+    font-size: 40px;
     text-align: left;
+}
+
+.project-subtitle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .tech-stack {
     text-align: left;
-    margin-left: 40px;
+    padding: 10px 40px 0px 40px;
 }
 
 .project-content {
     padding: 10px 60px 20px 40px;
     text-align: left;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 28px;
 }
