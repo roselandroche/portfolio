@@ -12,9 +12,10 @@ function Projects() {
         <div>
             <NavBar />
             <div className='projectCard'>
-                <h1>Conway's Game of Life</h1>
-                <h3>Tech Stack: React, JavaScript, CSS</h3>
-                <p>
+                <h1 className='project-title'>Conway's Game of Life</h1>
+                <h2 className='tech-stack'>Role: Full Stack Web Developer</h2>
+                <h3 className='tech-stack'>Tech Stack: React, JavaScript, CSS</h3>
+                <p className='project-content'>
                     A single page application showcasing John Conway's historic Game of Life. 
                 </p>
                 <a href='https://awesome-ramanujan-7d7ef5.netlify.app/'>
@@ -22,9 +23,10 @@ function Projects() {
                 </a>
             </div>
             <div className='projectCard'>
-                <h1>Save This Job</h1>
-                <h3>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
-                <p>
+                <h1 className='project-title'>Save This Job</h1>
+                <h2 className='tech-stack'>Role: Back End Developer</h2>
+                <h3 className='tech-stack'>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
+                <p className='project-content'>
                     A back end for an application built with a cross functional team, utilizing Node.js and Knex
                     in order to give users the ability to save job postings and related information as they search
                     for their new career. 
@@ -34,9 +36,10 @@ function Projects() {
                 </a>
             </div>
             <div className='projectCard'>
-                <h1>Build Sauti Studio</h1>
-                <h3>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
-                <p>
+                <h1 className='project-title'>Build Sauti Studio</h1>
+                <h2 className='tech-stack'>Role: Back End Developer</h2>
+                <h3 className='tech-stack'>Tech Stack: Node, Express, Knex, SQLite, Postgres</h3>
+                <p className='project-content'>
                     A back end for an application built with a cross functional team, utilizing Node.js and Knex
                     in order to give users the ability to save and share technical projects with like-minded
                     people. 
@@ -46,9 +49,10 @@ function Projects() {
                 </a>
             </div>
             <div className='projectCard'>
-                <h1>Pintereach</h1>
-                <h3>Tech Stack: React, Redux</h3>
-                <p>
+                <h1 className='project-title'>Pintereach</h1>
+                <h2 className='tech-stack'>Role: Front End Developer</h2>
+                <h3 className='tech-stack'>Tech Stack: React, Redux</h3>
+                <p className='project-content'>
                     An application built with a cross functional team, utilizing React and Redux
                     in order to give users the ability to save articles to be read at a later date.
                 </p>
@@ -57,9 +61,10 @@ function Projects() {
                 </a>
             </div>
             <div className='projectCard'>
-                <h1>Water My Plants</h1>
-                <h3>Tech Stack: HTML, CSS, JavaScript</h3>
-                <p>
+                <h1 className='project-title'>Water My Plants</h1>
+                <h2 className='tech-stack'>Role: Front End Developer</h2>
+                <h3 className='tech-stack'>Tech Stack: HTML, CSS, JavaScript</h3>
+                <p className='project-content'>
                     A landing page utilizing CSS, LESS, HTML, and JavaScript showcasing an application to
                     help users care for plants.
                 </p>

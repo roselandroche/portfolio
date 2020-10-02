@@ -13,17 +13,18 @@
     border: 2px solid #e4dfe9;
 }
 
-h1 {
-    padding: 30px 0 10px 40px;
+.project-title {
+    padding: 10px 0 10px 40px;
     margin: 0;
 }
 
-h3 {
+.tech-stack {
     text-align: left;
     margin-left: 40px;
-    font-size: 24px;
 }
 
-p {
-    padding: 10px 10px 10px 40px;
+.project-content {
+    padding: 10px 60px 10px 40px;
+    text-align: left;
+    font-size: 18px;
 }
