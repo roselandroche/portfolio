@@ -7,15 +7,16 @@ import '../css/ContactForm.css';
 function ContactForm(props) {
     return (
         <Form className='contact-form' method='POST' data-netlify="true">
+            {/* <label>Contact Rose</label> */}
             <label>Thanks for visiting, feel free to leave a message!</label>
             {props.touched.sender && props.errors.sender && <p className='error'>{props.errors.sender}</p>}
             <Field className='input' type='email' name='sender' placeholder='Sender Email' />
             {props.touched.reason && props.errors.reason && <p className='error'>{props.errors.reason}</p>}
             <Field className='input' component='select' name='reason'>
                 <option value='' disabled>Select Reason for Message</option>
-                <option value='Compliment'>Compliment</option>
                 <option value='Constructive Criticism'>Constructive Criticism</option>
                 <option value='Job Opportunity'>Job Opportunity</option>
+                <option value='Other'>Other</option>
             </Field>
             {props.touched.messageBody && props.errors.messageBody && <p className='error'>{props.errors.messageBody}</p>}
             <Field className='input' type='text' name='messageBody' placeholder='Message' />
