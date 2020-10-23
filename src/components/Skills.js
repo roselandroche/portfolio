@@ -6,7 +6,7 @@ function Skills() {
     return (
         <>
             <NavBar />
-            <h1 className='skills-header'>Technical Skills</h1>
+            {/* <h1 className='skills-header'>Technical Skills</h1> */}
             <div className='skills-card'>
                 <p className='skill'>Algorithms</p>
                 <p className='skill'>Python</p>
