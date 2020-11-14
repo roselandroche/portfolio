@@ -9,18 +9,21 @@
     border-radius: 5px;
     width: 1400px;
     height: 500px;
-    margin: 10vh auto;
+    margin: 60px auto;
     display: flex;
     flex-flow: column wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
 }
+
 .skill {
     border-radius: 8px;
     border: 3px solid #e4dfe9;
-    width: 13vw;
-    height: 60px;
-    margin: 20px 0 20px 90px;
+    width: 200px;
+    height: 100px;
+    margin: 20px auto;
     text-align: center;
-    padding: 40px 10px 10px 10px;
+    padding: 30px 10px 10px 10px;
 }
 
 .skill:hover{
