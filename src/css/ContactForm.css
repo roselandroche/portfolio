@@ -8,7 +8,7 @@
    margin: 70px auto;
    padding: 10px 60px;
    border-radius: 5px;
-   border: 2px solid #e4dfe9;
+   border: 2px solid black;
    background-color: #e4dfe9;
 }
 
@@ -16,7 +16,7 @@
     padding: 10px 200px 10px 10px;
     font-size: 16px;
     border-radius: 5px;
-    border: 2px solid #dad2e2;
+    border: 1px solid black;
 }
 
 button {
@@ -25,7 +25,12 @@ button {
     margin: 0 auto;
     font-size: 16px;
     border-radius: 5px;
-    border: 2px solid #dad2e2;
+    border: 1px solid black;
+}
+
+button:hover {
+    background-color: #c58bff;
+    font-weight: bolder;
 }
 
 label {
